@@ -44,7 +44,7 @@ def main(rangemin,rangemax):
     time.sleep(wts)
 
     driver.find_element_by_xpath(pstcd).send_keys("6222ah")
-    driver.find_element_by_xpath(huis).send_keys("73")
+    driver.find_element_by_xpath(huis).send_keys("77")
     driver.find_element_by_xpath(next).click()
 
     time.sleep(wts)
